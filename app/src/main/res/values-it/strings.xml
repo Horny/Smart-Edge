@@ -1,0 +1,255 @@
+<resources>
+    <string name="app_name">Smart Edge</string>
+    <string name="app_picker_title">Scegli le app</string>
+    <string name="settings_title">Impostazioni SidePanel</string>
+    <string name="shortcut_toggle_short">Barra laterale</string>
+    <string name="shortcut_toggle_long">Mostra/nascondi barra laterale</string>
+    <string name="shortcut_screenshot">Acquisisci screenshot</string>
+    <string name="shortcut_hub">Apri Hub produttività</string>
+    <string name="panel_running">Smart Edge è attivo</string>
+    <string name="panel_notification_channel">Servizio Smart Edge</string>
+    <string name="panel_notification_desc">Mantiene il pannello laterale disponibile sopra tutte le app</string>
+    <string name="start_panel">Avvia pannello</string>
+    <string name="stop_panel">Ferma pannello</string>
+    <string name="add_apps">Gestisci app</string>
+    <string name="settings">Impostazioni</string>
+    <string name="grant_permission">Concedi autorizzazione di sovrapposizione</string>
+    <string name="permission_rationale">Per mostrare il pannello sopra le altre app, concedi l\'autorizzazione \"Mostra sopra altre app\".</string>
+    <string name="remove_from_panel">Rimuovi dal pannello</string>
+    <string name="add_to_panel">Aggiunta al pannello</string>
+    <string name="search_apps">Cerca app…</string>
+    <string name="panel_side_label">Lato del pannello</string>
+    <string name="panel_side_right">Destra</string>
+    <string name="panel_side_left">Sinistra</string>
+    <string name="auto_start_label">Avvio automatico all\'accensione</string>
+    <string name="done">Fine</string>
+    <string name="open">Apri</string>
+    <string name="no_apps">Nessuna app aggiunta.\nTocca \"Gestisci app\" per aggiungerne.</string>
+    <string name="panel_tip">Tieni premuto il bordo destro per aprire il pannello</string>
+    <string name="accessibility_service_description">Rileva i gesti di navigazione del sistema per chiudere automaticamente il pannello flottante.</string>
+
+    <string name="section_appearance">Aspetto</string>
+    <string name="section_interaction">Interazione</string>
+    <string name="section_handle">Barra di Avvio</string>
+    <string name="section_icons_colors">Icone e colori</string>
+    <string name="section_home_screen">Schermata Home</string>
+    <string name="section_layout_tuning">Regolazione layout</string>
+    <string name="section_general">Generali</string>
+    <string name="section_advanced_options">Opzioni avanzate</string>
+
+    <string name="app_theme">Tema dell\'app</string>
+    <string name="theme_follow_system">Segui il sistema</string>
+    <string name="ui_style_theme">Stile dell\'interfaccia</string>
+    <string name="theme_origin">OriginOS (arrotondato)</string>
+    <string name="theme_hyperos">HyperOS (vetro)</string>
+    <string name="theme_realme">Realme UI</string>
+    <string name="theme_rich">Rich UI (bagliore)</string>
+
+    <string name="blur_title">Sfocatura effetto vetro</string>
+    <string name="blur_desc">Può causare rallentamenti sui dispositivi di fascia bassa (solo Android 12+)</string>
+    <string name="blur_intensity">Intensità sfocatura</string>
+    <string name="invisible_bg">Sfondo trasparente</string>
+    <string name="panel_columns">Colonne del pannello</string>
+    <string name="icon_shape">Forma delle icone</string>
+    <string name="icon_pack">Pacchetto icone</string>
+    <string name="icon_pack_default">Predefinito di sistema</string>
+    <string name="icon_scale">Dimensione icone</string>
+
+    <string name="custom_accent_title">usa pannello colore personalizzato (solo con tema Rich UI)</string>
+    <string name="accent_color">Colore bordo pannello</string>
+    <string name="panel_bg_color">Colore di sfondo del pannello</string>
+    <string name="btn_reset_ui_colors">Ripristina colori interfaccia</string>
+
+    <string name="service_button_style">Stile pulsante del servizio</string>
+    <string name="button_style_power">Icona di accensione moderna</string>
+    <string name="button_style_logo">Logo classico</string>
+
+    <string name="panel_opacity">Opacità del pannello</string>
+    <string name="corner_radius">Raggio degli angoli</string>
+    <string name="sidebar_max_height">Altezza massima barra laterale</string>
+    <string name="picker_max_height">Altezza massima pannello di modifica</string>
+
+    <string name="visible_pill">Barra di avvio visibile</string>
+    <string name="visible_pill_desc">Mostra un indicatore visivo sul bordo dello schermo</string>
+    <string name="pill_color">Colore barra di avvio</string>
+    <string name="pill_thickness">Spessore della barra di avvio</string>
+    <string name="touch_area_width">Larghezza area di tocco</string>
+    <string name="handle_height">Altezza della barra di avvio</string>
+
+    <string name="edge_gestures">Gesti di scorrimento dal bordo</string>
+    <string name="edge_sensitivity">Sensibilità scorrimento dal bordo</string>
+    <string name="req_accessibility">Richiede il servizio di accessibilità</string>
+    <string name="tap_gestures">Gesti di tocco</string>
+    <string name="tap_gestures_desc">Aggiungi azioni al tocco o alla pressione prolungata della barra di avvio</string>
+    <string name="haptic_feedback">Feedback aptico</string>
+
+    <string name="edge_seek_title">Regolazione dal bordo (scorri per regolare)</string>
+    <string name="edge_seek_desc">Scorri sulla barra di avvio mentre il pannello è chiuso</string>
+    <string name="slide_brightness">Scorri per la luminosità</string>
+    <string name="slide_volume">Scorri per il volume</string>
+    <string name="seek_sensitivity">Sensibilità di regolazione</string>
+
+    <string name="automation_title">Automazione di sistema (Root/Shizuku)</string>
+    <string name="automation_desc">Usa chiamate di sistema per Indietro, Home e Recenti</string>
+    <string name="fullscreen_protection">Protezione schermo intero</string>
+    <string name="fullscreen_desc">Impedisci i gesti nelle app selezionate</string>
+    <string name="game_mode">Modalità gioco</string>
+    <string name="game_mode_desc">Richiedi scorrimenti deliberati nelle app selezionate</string>
+
+    <string name="main_hero_subtitle">Centro di controllo fluido</string>
+    <string name="main_service_title">Servizio barra laterale</string>
+    <string name="main_service_stopped">Il servizio è fermo</string>
+    <string name="main_service_running">Il servizio è attivo</string>
+    <string name="main_test_sidebar">Prova la barra laterale ora</string>
+
+    <string name="alert_battery_title">Migliora la stabilità</string>
+    <string name="alert_battery_desc">Escludi SidePanel dall\'ottimizzazione della batteria per evitare che il sistema lo chiuda in background.</string>
+    <string name="alert_battery_btn">Consenti uso in background</string>
+
+    <string name="alert_freeform_title">Modalità multitasking</string>
+    <string name="alert_freeform_desc">La modalità finestra libera è attiva nelle impostazioni ma disattivata nelle Opzioni sviluppatore del sistema.</string>
+    <string name="alert_freeform_btn">Correggi nelle impostazioni</string>
+
+    <string name="alert_permission_title">Autorizzazione necessaria</string>
+    <string name="alert_permission_desc">Consenti \'Mostra sopra altre app\' per usare la barra laterale.</string>
+    <string name="alert_permission_btn">Concedi ora</string>
+
+    <string name="main_logs_title">Registro attività di sistema</string>
+    <string name="main_settings_btn">Impostazioni avanzate</string>
+    <string name="main_how_to_use">Come si usa</string>
+    <string name="main_tutorial_desc">Scorri dal bordo dello schermo e tieni premuto per un istante per mostrare il pannello flottante. Puoi anche toccare la barra di avvio, se attivata nelle impostazioni.</string>
+    <string name="main_sideload_note">Se l\'autorizzazione è bloccata: Impostazioni → App → Consenti impostazioni con restrizioni</string>
+
+    <string name="only_on_home">Mostra solo nella schermata Home</string>
+    <string name="only_on_home_desc">Nascondi la barra di avvio e i gesti quando non sei nella schermata Home/launcher</string>
+    <string name="notch_gestures">Gesti sul notch</string>
+    <string name="enable_notch_gestures">Attiva i gesti sul notch</string>
+    <string name="notch_gestures_desc">Aggiungi gesti di tocco all\'area del notch/foro della fotocamera</string>
+    <string name="notch_tap_gestures">Gesti di tocco sul notch</string>
+
+    <string name="action_flashlight">Torcia</string>
+    <string name="action_camera">Fotocamera</string>
+    <string name="action_rotation">Attiva/disattiva rotazione automatica</string>
+    <string name="action_fav_app">Apri app preferita</string>
+
+    <string name="indicator_flashlight_on">Torcia accesa</string>
+    <string name="indicator_flashlight_off">Torcia spenta</string>
+    <string name="indicator_rotation_on">Rotazione automatica attiva</string>
+    <string name="indicator_rotation_off">Rotazione automatica disattiva</string>
+
+    <string name="status_service_active">Il servizio è attivo</string>
+    <string name="status_automation_stopped">Automazione ferma</string>
+    <string name="apps_selected_singular">1 app selezionata</string>
+    <string name="apps_selected_plural">%d app selezionate</string>
+
+    <string name="misc_section_general">Generali</string>
+    <string name="misc_app_language">Lingua dell\'app</string>
+    <string name="misc_section_backup">Backup e ripristino</string>
+    <string name="misc_export_title">Esporta impostazioni</string>
+    <string name="misc_export_desc">Salva la configurazione nella memoria interna</string>
+    <string name="misc_import_title">Importa impostazioni</string>
+    <string name="misc_import_desc">Ripristina da un backup JSON precedente</string>
+
+    <string name="dialog_reset_title">Ripristinare tutte le impostazioni?</string>
+    <string name="dialog_reset_msg">Tutte le configurazioni e le app del pannello laterale verranno riportate ai valori predefiniti.</string>
+    <string name="btn_reset">Ripristina</string>
+    <string name="toast_reset_success">Impostazioni ripristinate correttamente</string>
+    <string name="toast_browser_error">Impossibile aprire il browser</string>
+
+    <string name="manage_apps_desc">Scegli quali app mostrare nella barra laterale</string>
+    <string name="view_repo_title">Vedi repository</string>
+    <string name="view_repo_desc">Consulta il codice sorgente su GitHub</string>
+    <string name="reset_defaults_desc">Riporta tutte le impostazioni allo stato di fabbrica</string>
+
+    <string name="search_settings_hint">Cerca nelle impostazioni…</string>
+    <string name="main_menu_appearance_desc">Imposta la modalità scura, regola colore e dimensioni</string>
+    <string name="main_menu_interaction_desc">Gesti, feedback aptico, scelta del lato</string>
+    <string name="main_menu_handle_desc">Regolazione di dimensioni e posizione</string>
+    <string name="section_tools">Strumenti della dashboard</string>
+    <string name="main_menu_tools_desc">Personalizza il pannello degli strumenti</string>
+    <string name="section_misc">Varie</string>
+    <string name="main_menu_misc_desc">Backup, ripristino e altro</string>
+
+    <string name="tap_gestures_summary">Tocco: %1$s, 2x: %2$s, 3x: %3$s, Pressione prolungata: %4$s</string>
+    <string name="apps_selected_none">0 app selezionate</string>
+
+    <string name="freeform_mode_standard">Standard (80%)</string>
+    <string name="freeform_mode_portrait">Verticale (stretta)</string>
+    <string name="freeform_mode_maximized">Ingrandita</string>
+    <string name="freeform_mode_custom">Personalizzata (%1$d%% × %2$d%%)</string>
+
+    <string name="anim_feel_calm">Calma (lenta)</string>
+    <string name="anim_feel_balanced">Equilibrata (predefinita)</string>
+    <string name="anim_feel_snappy">Scattante</string>
+    <string name="anim_feel_instant">Istantanea</string>
+    <string name="anim_feel_disabled">Disattivata</string>
+
+    <string name="dialog_automation_title">Automazione non disponibile</string>
+    <string name="dialog_automation_msg">Per usare questa funzione sono necessari Root o Shizuku. Configura prima \'Automazione di sistema\'.</string>
+    <string name="btn_setup">Configura</string>
+    <string name="loading_apps">Caricamento app…</string>
+    <string name="please_wait_apps">Attendi il caricamento delle app.</string>
+    <string name="hint_search_apps">Cerca app…</string>
+    <string name="btn_save">Salva</string>
+    <string name="dialog_window_size">Dimensione finestra</string>
+    <string name="dialog_anim_feel">Stile delle animazioni</string>
+
+    <string name="picker_title_hide">Seleziona le app in cui nascondere la barra laterale</string>
+    <string name="picker_title_game">Seleziona le app per la modalità gioco</string>
+    <string name="picker_title_favorite">Seleziona l\'app preferita</string>
+
+    <string name="toast_fav_app_unset">App preferita non impostata</string>
+    <string name="toast_app_not_found">App non trovata</string>
+    <string name="toast_freeform_enabled">Modalità finestra libera di sistema attivata</string>
+    <string name="snackbar_freeform_disabled">La modalità finestra libera di sistema è disattivata nelle Opzioni sviluppatore</string>
+    <string name="btn_fix">CORREGGI</string>
+
+    <string name="toast_shortcut_sent">Richiesta di collegamento inviata. Controlla la schermata Home.</string>
+    <string name="toast_launcher_no_shortcut">Il launcher non supporta i collegamenti bloccati</string>
+    <string name="toast_shortcut_added">Collegamento aggiunto alla schermata Home</string>
+    <string name="label_toggle_sidebar">Mostra/nascondi barra laterale</string>
+
+    <string name="status_granted">Concessa</string>
+    <string name="status_not_granted">Non concessa</string>
+    <string name="label_native_gesture">Gesto nativo</string>
+
+    <string name="action_none">Disattivato</string>
+    <string name="action_launcher">Launcher</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_last_app">Ultima app</string>
+    <string name="action_back">Indietro</string>
+    <string name="action_home">Home</string>
+    <string name="action_recents">Recenti</string>
+    <string name="action_notifications">Notifiche</string>
+    <string name="action_quick_settings">Impostazioni rapide</string>
+    <string name="action_lock_screen">Blocca schermo</string>
+    <string name="action_power_menu">Menu di accensione</string>
+    <string name="action_move_handle">Sposta barra di avvio (trascina)</string>
+
+    <!-- Interaction Settings: Panel Experience -->
+    <string name="section_panel_experience">Esperienza del pannello</string>
+    <string name="feature_landscape_label">Mostra pannello in orizzontale</string>
+    <string name="feature_landscape_desc">Consenti l\'apertura del pannello laterale quando il dispositivo è in orizzontale</string>
+    <string name="feature_notification_apps_label">Sezione app con notifiche</string>
+    <string name="feature_notification_apps_desc">Mostra le app con notifiche recenti in una sezione dedicata in alto</string>
+    <string name="feature_remember_scroll_label">Ricorda posizione di scorrimento</string>
+    <string name="feature_remember_scroll_desc">Ripristina l\'ultima posizione di scorrimento alla riapertura della barra laterale o del selettore</string>
+    <string name="feature_auto_show_keyboard_label">Mostra tastiera automaticamente</string>
+    <string name="feature_auto_show_keyboard_desc">Attiva automaticamente la barra di ricerca e mostra la tastiera all\'apertura del selettore app</string>
+
+    <!-- Interaction Settings: System & Behavior -->
+    <string name="section_system_behavior">Sistema e comportamento</string>
+    <string name="feature_auto_start_label">Avvio automatico all\'accensione</string>
+    <string name="feature_auto_start_desc">Avvia automaticamente il servizio del pannello laterale dopo il riavvio del dispositivo</string>
+    <string name="feature_show_logs_label">Attiva log di debug</string>
+    <string name="feature_show_logs_desc">Mostra i log dei processi interni nel pannello per la risoluzione dei problemi</string>
+
+    <string name="feature_anim_feel_label">Stile delle animazioni</string>
+    <string name="feature_picker_gap_label">Spaziatura del selettore (distanza)</string>
+    <string name="feature_picker_gap_desc">Spazio orizzontale tra la barra laterale e il pannello di selezione app</string>
+
+    <!-- Interaction Settings: Desktop Shortcuts -->
+    <string name="section_desktop_shortcuts">Collegamenti sul desktop</string>
+    <string name="feature_add_shortcut_label">Aggiungi collegamento per mostrare/nascondere</string>
+    <string name="feature_add_shortcut_desc">Fissa un collegamento nella schermata Home per mostrare o nascondere rapidamente la barra laterale</string>
+</resources>
